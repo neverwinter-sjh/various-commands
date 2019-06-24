@@ -7,15 +7,15 @@ chmod +x finename.sh
 ```
 
 ### 현재 활성화된 포트 목록
-* To format it in a nice, readable way; use :
+* 모든 목록
 ```
 sudo lsof -i -n -P | more
 ```
-* To view view only TCP connections :
+* TCP 목록만
 ```
 sudo lsof -i -n -P | grep TCP | more
 ```
-* To view view only UDP connections :
+* UDP 
 ```
 sudo lsof -i -n -P | grep UDP | more
 ```
