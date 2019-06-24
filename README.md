@@ -19,3 +19,8 @@ sudo lsof -i -n -P | grep TCP | more
 ```
 sudo lsof -i -n -P | grep UDP | more
 ```
+
+### 서비스 중지
+```
+kill -9 service-id
+```
